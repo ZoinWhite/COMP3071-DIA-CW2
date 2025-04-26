@@ -117,11 +117,11 @@ Most of them are not used in real training, because use default value is enough,
 
 Training Environment: NGSIM.net.xml
 
-[pic] 
+![NGSIM.png](net_pictures/NGSIM.png)
 
 Additional Testing Environment: THRNET.net.xml
 
-[pic]
+![THRNET.png](net_pictures/THRNET.png)
 
 There are two method testing on Training Environment:
 - RL method: DDPG
@@ -137,7 +137,8 @@ Use the DDPG trained by NGSIM.net.xml to test on THRNET.net.xml to confirm that 
 
 ### Testing Results on NGSIM.net.xml
 
-[pic]
+![NGSIM_intersection_moe.png](sample_results_imgs/NGSIM/intersection_moe.png)
+![NGSIM_travel_time.png](sample_results_imgs/NGSIM/travel_time.png)
 
 ### Testing Results on THRNET
 
