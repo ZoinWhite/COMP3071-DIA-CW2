@@ -1,0 +1,1 @@
+python run.py -sim THRNET -netfp networks/THRNET.net.xml -sumocfg networks/THRNET.sumocfg -tsc ddpg -load -nogui -mode test -gmin 5 -demand dynamic -scale 1.4 -n_hidden 4

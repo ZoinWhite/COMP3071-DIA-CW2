@@ -1,0 +1,1 @@
+python run.py -sim NGSIM -netfp networks/NGSIM.net.xml -sumocfg networks/NGSIM.sumocfg -tsc ddpg -lr 0.00005 -lre 0.0000001 -nreplay 15000 -nsteps 4 -target_freq 128 -updates 15000 -batch 32 -save -nogui -n_hidden 4 -mode train -gmin 5 -demand dynamic -scale 1.4
